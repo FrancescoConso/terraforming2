@@ -5,3 +5,4 @@ You can see the sketch in action on this Youtube video:
 [![Video of Terraforming2](http://img.youtube.com/vi/L7a5_hYzO_A/0.jpg)](http://www.youtube.com/watch?v=L7a5_hYzO_A)
 
 The sketch is named "terraforming2" because in the first version (rightfully named "terraforming" without any number) had a performance issues, with too many lines of the grid being instantiated and drawn, compared to what the garbage collector could handle at the end of each frame. The problem was solved in terraforming2 by drawing the lines as two "coils" running through the grid horizontally and vertically. This pretty much means only two objects were instantiated each frame, rather than the twenty-two of the previous version to represent the same object.
+The audio reactive component was provided by the Minim audio Library: [Minim on Github](https://github.com/ddf/Minim) - [Minim Documentation](https://code.compartmental.net/minim/index.html)
